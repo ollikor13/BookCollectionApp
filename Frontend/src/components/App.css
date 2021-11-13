@@ -1,0 +1,16 @@
+.App {
+  max-width: 80%;
+  justify-content: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 150px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 50px;
+  height: 750px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+}

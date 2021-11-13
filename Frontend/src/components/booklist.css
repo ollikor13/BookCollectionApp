@@ -1,0 +1,21 @@
+.BookListWrapper{
+  width: 50%;
+  margin-top: 32px;
+  margin-right: 150px;
+  max-height: 620px;
+
+  /*Hide scrollbar*/
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; 
+}
+
+
+.BookListWrapper::-webkit-scrollbar {
+  /*Hide scrollbar*/
+  display: none;
+}
+
+.bookTableRow:hover{
+  cursor: pointer;
+}
